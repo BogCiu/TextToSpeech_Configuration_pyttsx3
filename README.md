@@ -115,4 +115,4 @@ Now, your voice packages should work just fine with pyttsx3, or other tts librar
 
 (Do note that selecting your own voice can be done either by "knowing" the voice ID beforehand, or, as I've done it = get all voices available in a list, then iterate through it and parse through them by searching for a **case sensitive** string in the voice id string)
 
-Obviously, you can't hear the result of "engine.say()" here, but those are just 10 lines of code, so be free to test them out yourself.
+Obviously, you can't hear the result of "engine.say()" here, but those are just 10 lines of code, so feel free to test them out yourself.
