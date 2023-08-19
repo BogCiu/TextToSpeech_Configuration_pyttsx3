@@ -93,6 +93,10 @@ Do this for both the "voice package" and it's "Attributes" sub-folder.
 For the other version of the copied text, change the path from "Location 1" to "Location 3"  
 (simply put "<code>(...)\SOFTWARE\Microsoft\Speech_OneCore\Voices\(...)</code>" becomes "<code>(...)\SOFTWARE\\<b>WOW6432Node\\</b>Microsoft\Speech_OneCore\Voices\(...)</code>").
 
+Here's how your .reg file should look like after the modifications:
+
+![Reg file after modifications](./Readme%20Screenshots//EditedRegFile.png)
+
 After you've done this, save your .reg file and close it, then double click it (or right click -> Merge)
 
 ![Caroline Merge](./Readme%20Screenshots/CarolineMerge.png)
